@@ -1,0 +1,325 @@
+/*
+ * Student Name: Andrew Brown
+ * Student ID: 040818088
+ * Course: CST8117 - Cross-Platform Web Design
+ * Semester: 23W
+ * Assignment: Assignment 2 
+ * Date Submitted: Feb 26, 2023
+ * Complimentary colour scheme (Green and Brown)
+ */
+
+header {
+    padding: 50px;
+}
+
+header img {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+/*4 styles taken and adapted from w3school nav bar*/
+header ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-top: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header li a:hover {
+    background-color: rgb(167, 167, 167);
+}
+
+/*2 styles taken and adapted from w3school search bar*/
+header .Search {
+    margin-top: 92px;
+    float: right;
+    display: block;
+    text-align: left;
+    padding: 6px;
+}
+
+header button {
+    margin-left: 15px;
+    float: right;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+main img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.info-section {
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+/*borders taken and adapeted from w3School box model / understanding of divs side by side from Das, M. */
+.company-description {
+    width: 500px;
+    margin: 15px;
+    border: 15px solid #5d7465;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.company-description h2 {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.company-description p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slogan {
+    width: 300px;
+    height: 120px;
+    margin: 15px;
+    border: 15px solid #5d7465;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contacts {
+    width: 500px;
+    margin: 15px;
+    border: 15px solid #5d7465;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contacts h2 {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contacts p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1 {
+    text-align: center;
+}
+
+
+.socials {
+    width: 97%;
+    vertical-align: top;
+    border: 15px solid #5d7465;
+    padding: 15px;
+}
+
+.socials h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.about-us-container {
+    display: inline-block;
+    width: 97%;
+    margin: 20px;
+}
+
+.about-us-left {
+    float: left;
+    border: 15px solid #5d7465;
+    border-radius: 5%;
+    margin-right: 20px;
+}
+
+.about-us-left figure {
+    height: 350px;
+    width: 502px;
+}
+
+.about-us-right {
+    display: inline-block;
+    height: 300px;
+    width: 60%;
+    border: 15px solid #5d7465;
+    border-radius: 5%;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-us-right h3 {
+    text-align: center;
+}
+
+.contact-us-container {
+    display: inline-block;
+    width: 97%;
+    margin: 20px;
+}
+
+.contact-us-right {
+    float: right;
+}
+
+.contact-us-right img {
+    height: auto;
+}
+
+.contact-us-left {
+    display: inline-block;
+    height: 300px;
+    width: 60%;
+    border: 15px solid #5d7465;
+    border-radius: 5%;
+    padding: 15px;
+}
+
+.terms-container {
+    border: 15px solid #5d7465;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+.terms-container p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.privacy-container {
+    border: 15px solid #5d7465;
+    margin: 15px;
+    padding: 15px;
+}
+
+.privacy-container p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.return-to-products {
+    float: right;
+}
+
+.sort-container li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-container {
+    border: 15px solid #5d7465;
+    width: 600px;
+    height: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+.product-container img {
+    width: 600px;
+    height: 700px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product-description {
+    border: 15px solid #5d7465;
+    margin: 15px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-description button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    border: 15px solid #5d7465;
+    margin: auto;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 300px;
+}
+
+.column img {
+    float: left;
+    width: 200px;
+    height: 300px;
+}
+
+.column h2,
+p {
+    text-align: center;
+}
+
+.footer {
+    background-color: #5d7465;
+    padding: 25px;
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer p {
+    padding: 14px;
+}
+
+/*taken again and adapted from w3School nav bar*/
+.footer ul {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer li {
+    float: left;
+}
+
+.footer li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.footer li a:hover {
+    background-color: rgb(167, 167, 167);
+}
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}

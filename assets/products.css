@@ -1,0 +1,77 @@
+/*
+ * Student Name: Andrew Brown
+ * Student ID: 040818088
+ * Course: CST8117 - Cross-Platform Web Design
+ * Semester: 23W
+ * Assignment: Assignment 2 
+ * Date Submitted: Feb 26, 2023
+ */
+
+/*Cards taken and adapted from W3school product cards*/
+.card-container {
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 300px;
+    height: 350px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-top: 10px;
+    padding: 50px;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+}
+
+.price {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.sort-container ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    border: 5px solid #5d7465;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.sort-container li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.sort-container li:hover {
+    background-color: rgb(167, 167, 167);
+}
+
+.page-container ul {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
