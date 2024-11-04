@@ -1,0 +1,154 @@
+<!--
+  -- Student Name: Andrew Brown
+  -- Student ID: 040818088
+  -- Course: CST8117 - Cross-Platform Web Design
+  -- Semester: 23W
+  -- Assignment: Assignment 2
+  -- Date Submitted: Feb 26, 2023
+  -- Gestalt design: Symmetry
+  -->
+<!DOCTYPE html>
+<html lang="en-ca">
+    <head>
+        <title>Brown's Beans</title>
+        <link rel="stylesheet" href="assets/main.css" />
+        <link rel="stylesheet" href="assets/products.css" />
+        <meta name="description" content="Coffee Website Layout" />
+        <meta type="keywords" content="Brown beans, Ottawa supplier" />
+        <meta name="author" content="Andrew Brown" />
+    </head>
+    <body>
+        <!--Here marks the begining of the top navigation portion of the website that holds the logo, navigation section in a list and search bar-->
+        <header>
+            <a href="#main" class="skip">Skip to main content</a>
+            <nav>
+                <ul>
+                    <div>
+                        <a href="index.htm"><img src="images/logo.jpg" /></a>
+                    </div>
+                    <li><a href="index.htm">Home</a></li>
+                    <li><a href="about-us.htm">About Us</a></li>
+                    <li><a href="contact-us.htm">Contact Us</a></li>
+                    <li><a href="products.htm">Products</a></li>
+                    <li><a href="privacy.htm">Privacy Policy</a></li>
+                    <li><a href="terms.htm">Terms & Conditions</a></li>
+                    <li><a href="cart.htm">Cart</a></li>
+                    <div class="Search">
+                        <input type="text" placeholder="Search.." />
+                        <button type="submit">Submit</button>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <!--In the main section we have an image for the website, followed by the "info section" including about the website, slogan and contact info. Following this are the product cards and social media shout out.--->
+            <div>
+                <img src="images/Cafe.jpg" />
+            </div>
+            <div class="info-section">
+                <div class="company-description">
+                    <h2>Who are we?</h2>
+                    <p>
+                        Brown Beans Co. is a third-party distributor emerging in
+                        the Ottawa
+                        market. We source high-quality coffee beans from local
+                        coffee
+                        producers and distribute them to coffee shops,
+                        restaurants, and
+                        local customers. Our goal is to support the local coffee
+                        industry
+                        and provide their customers with the freshest and
+                        best-tasting
+                        coffee possible.
+                    </p>
+                </div>
+                <div class="slogan">
+                    <figure>
+                        <img src="images/Slogan.jpg" />
+                        <figcaption>Brown Bean Co. Slogan</figcaption>
+                    </figure>
+                </div>
+                <div class="contacts">
+                    <h2>Need to talk?</h2>
+                    <address>
+                        Business Owner: Andrew Brown.<br />
+                        Check out our instagram! instagram.com/BrownBeans<br />
+                        Questions? Contact us at:<br />
+                        613-914-2144<br />
+                        BrownBeans@live.ca<br />
+                        Proudly Canadian
+                    </address>
+                </div>
+            </div>
+            <h1>Featured Beans</h1>
+            <div class="card-container">
+                <!--Product cards containing coffee image, name of product, cost and description.-->
+                <div class="card">
+                    <img src="images/Coffee1.jpg" alt="Unroasted" />
+                    <title>Roaster's Choice of Beans</title>
+                    <h1>Roaster's Choice of Beans</h1>
+                    <p class="price">$20.00 per 340 Grams</p>
+                    <p>Freshest beans available</p>
+                    <p><button>Add to Checkout</button></p>
+                </div>
+                <div class="card">
+                    <img src="images/Coffee2.jpg" alt="Medium" />
+                    <title>Medium Roast Coffee</title>
+                    <h1>100% Arabica Beans</h1>
+                    <p class="price">$18.00 per 340 Grams</p>
+                    <p>Traditonal cup of joe</p>
+                    <p><button>Add to Checkout</button></p>
+                </div>
+                <div class="card">
+                    <img src="images/Coffee3.jpg" alt="Dark" />
+                    <title>Dark Roast Coffee</title>
+                    <h1>Muskoka Dark Roast Beans</h1>
+                    <p class="price">$18.00 per 340 Grams</p>
+                    <p>Dark and roasty</p>
+                    <p><button>Add to Checkout</button></p>
+                </div>
+            </div>
+            <div class="socials">
+                <!--Social media shout out-->
+                <h2>We ain't no green bean!</h2>
+                <p>
+                    The best method to be informed about adventures with Brown
+                    Beans and
+                    our products is to follow us on social media. You may learn
+                    about new
+                    products, promotions, events, and other crucial updates
+                    through our
+                    social media posts. Additionally, you can get involved with
+                    our
+                    fantastic community allowing you to meet with our staff and
+                    other
+                    coffee lovers!
+                </p>
+                <p>
+                    Check out our Instagram at:
+                    <a href="instagram.com/brownbeans" target="_blank">Brown
+                        Beans
+                        Instagram</a>
+                </p>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <div class="footer">
+                    <!--List of footer nav items and copyright-->
+                    <ul>
+                        <li><a href="index.htm">Return up top</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                    <p>Rights and Copyright owned by BrownBeans Co. &copy;</p>
+                </div>
+            </nav>
+        </footer>
+    </body>
+</html>
